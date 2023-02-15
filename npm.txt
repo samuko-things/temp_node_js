@@ -1,0 +1,22 @@
+npm - global command comes with node
+
+// check the npm version
+npm --verson
+
+//local dependency - use it only in a particular project
+npm i <packageName>
+
+//global dependency - use it in any project
+npm install -g <packageName>
+sudo npm install -g <packageName> (for mac users)
+
+
+// create a package.json manually
+create a package.json file in the root folder of your project
+add properties to it.
+
+// create a package.json with npm
+npm init (step by step. press enter to skip)
+or
+npm init -y (every property is set to default)
+u can edit it your self
